@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="아이템1"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="아이템2"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item3"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="아이템3"
+        app:showAsAction="ifRoom"/>
+</menu>

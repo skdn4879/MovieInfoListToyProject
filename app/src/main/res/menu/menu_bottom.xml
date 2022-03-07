@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottomTab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="현재 상영"/>
+
+    <item
+        android:id="@+id/bottomTab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="예매순"/>
+
+    <item
+        android:id="@+id/bottomTab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="영화관"/>
+
+    <item
+        android:id="@+id/bottomTab4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="즐겨찾기"/>
+</menu>
